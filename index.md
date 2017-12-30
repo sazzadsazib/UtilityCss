@@ -1,4 +1,4 @@
-# [UtilityCss](https://sazzadsazib.github.io/UtilityCss/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sazzadsazib/UtilityCss/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sazzadsazib/UtilityCss/blob/master/LICENSE)
 
 Utility Css is basic utility css generator for your code.
 
