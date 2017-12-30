@@ -6,7 +6,10 @@
   "scripts": {
     "test": "npm-sass scss/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css",
     "min" : "css-minify --file css/utilitycss-v0.0.1.css",
-    "compile" : "npm-sass scss/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css && css-minify --file css/utilitycss-v0.0.1.css"
+    "compile" : "npm-sass scss/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css && css-minify --file css/utilitycss-v0.0.1.css",
+    "compile-margin" : "npm-sass scss/margin.scss > css/utilitycss-margin-v0.0.1.css && css-minify --file css/utilitycss-margin-v0.0.1.css",
+    "compile-padding" : "npm-sass scss/padding.scss > css/utilitycss-padding-v0.0.1.css && css-minify --file css/utilitycss-padding-v0.0.1.css"
+
   },
   "repository": {
     "type": "git",

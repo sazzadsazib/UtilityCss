@@ -1,5 +1,5 @@
-$i: 0;
-@while $i < 1000 {
+@import 'variable';
+@while $i < $range {
   // padding positive
   .pt-#{$i}px {
     padding-top: #{$i}px;

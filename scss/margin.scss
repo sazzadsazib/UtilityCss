@@ -1,5 +1,13 @@
-$i: 0;
-@while $i < 1000 {
+@import 'variable';
+.m-0 {
+  margin: 0;
+}
+.m-0-a {
+  margin: 0 auto;
+}
+
+//Mixin loop. Change vairables in vairable.scss;
+@while $i < $range {
   // margin positive
   .mt-#{$i}px {
     margin-top: #{$i}px;
