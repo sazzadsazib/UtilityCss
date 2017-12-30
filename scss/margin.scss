@@ -37,5 +37,5 @@
     margin-right: -#{$i}px;
   }
 
-  $i: $i + 5;
+  $i: $i + $increment;
 }
