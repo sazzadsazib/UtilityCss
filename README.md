@@ -89,7 +89,7 @@ this will install all packages from ``package.json``
 Then go to:
 `` scss -> Variable.scss
 ``
-Change ``$i`` to your starting point for loop  and change ``$range`` from 600 to any px size you want
+Change ``$i`` to your starting point for loop  and change ``$range`` from 600 to any px size you want and change ``$increment`` to change increment value
 
 Then use this command
 
