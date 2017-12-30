@@ -4,7 +4,9 @@
   "description": "This is a basic utility opensource css",
   "main": "index.js",
   "scripts": {
-    "test": "npm-sass .sass/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css"
+    "test": "npm-sass scss/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css",
+    "min" : "css-minify --file css/utilitycss-v0.0.1.css",
+    "compile" : "npm-sass scss/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css && css-minify --file css/utilitycss-v0.0.1.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/sazzadsazib/UtilityCss#readme",
   "dependencies": {
+    "css-minify": "^1.0.1",
     "npm-sass": "^2.2.1"
   }
 }

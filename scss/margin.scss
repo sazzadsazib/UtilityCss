@@ -1,0 +1,33 @@
+$i: 0;
+@while $i < 1000 {
+  // margin positive
+  .mt-#{$i}px {
+    margin-top: #{$i}px;
+  }
+  .mb-#{$i}px {
+    margin-bottom: #{$i}px;
+  }
+  .ml-#{$i}px {
+    margin-left: #{$i}px;
+  }
+  .mr-#{$i}px {
+    margin-right: #{$i}px;
+  }
+
+  // margin negetive
+
+  .mt--#{$i}px {
+    margin-top: -#{$i}px;
+  }
+  .mb--#{$i}px {
+    margin-bottom: -#{$i}px;
+  }
+  .ml--#{$i}px {
+    margin-left: -#{$i}px;
+  }
+  .mr--#{$i}px {
+    margin-right: -#{$i}px;
+  }
+
+  $i: $i + 5;
+}
