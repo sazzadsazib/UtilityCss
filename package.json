@@ -1,0 +1,25 @@
+{
+  "name": "utilitycss",
+  "version": "0.0.1",
+  "description": "This is a basic utility opensource css",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-sass .sass/utilitycss-v0.0.1.scss > css/utilitycss-v0.0.1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sazzadsazib/UtilityCss.git"
+  },
+  "keywords": [
+    "CSS"
+  ],
+  "author": "Sazzadsazib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sazzadsazib/UtilityCss/issues"
+  },
+  "homepage": "https://github.com/sazzadsazib/UtilityCss#readme",
+  "dependencies": {
+    "npm-sass": "^2.2.1"
+  }
+}
