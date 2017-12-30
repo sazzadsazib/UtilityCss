@@ -1,0 +1,18 @@
+$i: 0;
+@while $i < 1000 {
+  // padding positive
+  .pt-#{$i}px {
+    padding-top: #{$i}px;
+  }
+  .pb-#{$i}px {
+    padding-bottom: #{$i}px;
+  }
+  .pl-#{$i}px {
+    padding-left: #{$i}px;
+  }
+  .pr-#{$i}px {
+    padding-right: #{$i}px;
+  }
+
+  $i: $i + 5;
+}
