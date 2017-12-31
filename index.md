@@ -124,7 +124,7 @@ If `Increment value is 5` then use:
 
     `mt-Xpx` 
     
-where `X` is mupliply of `5` . Here is the all list of css classes
+where `X` is multiply of `5` . Here is the all list of css classes
 
 ### Margin
 ```
