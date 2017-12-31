@@ -8,6 +8,7 @@ Utility Css is basic utility css generator for your code.
 
 This framework created based on Scss mixin for your css. This framework can generate margin, padding and some basic extraa css and minify it based on your requirement.
 
+
 ## Folder Stucture
 
     .
@@ -35,6 +36,7 @@ This framework created based on Scss mixin for your css. This framework can gene
 
 > This Stucture is updated on December 31, 2017.
 > `LICENSE`, `README.md`
+
 
 
 
@@ -115,6 +117,51 @@ Note: this will only compile scss to css for all classes.
 This will compile css to min.css of `utilitycss-v0.0.1.css` and will be available on ``css-dist > utilitycss-v0.0.1.min.css`` 
 Note: this will only compile css to minified css for all classes.
 
+
+## How To Use Css Class
+
+If `Increment value is 5` then use:
+
+    `mt-Xpx` 
+    
+where `X` is mupliply of `5` . Here is the all list of css classes
+
+### Margin
+```
+m-X                 # margin 0
+m-X-a               # margin 0 auto
+mt-Xpx              # margin top X px 
+mb-Xpx              # margin bottom X px
+ml-Xpx              # margin left X px
+mr-Xpx              # margin right X px
+mt--Xpx             # margin top Negetive X px
+mb--Xpx             # margin bottom Negetive X px
+ml--Xpx             # margin left Negetive X px
+mr--Xpx             # margin right Negetive X px
+```
+
+### Padding
+```
+pt--Xpx             # padding top X px
+pb--Xpx             # padding bottom X px
+pl--Xpx             # padding left X px
+pr--xpx             # padding right X px
+```
+
+### Extra
+
+```
+float-l              # float left
+float-r              # float right
+t-align-c            # text align center
+t-align-l            # text align left
+t-align-r            # text align right
+display-none         # display none
+display-inline       # display inline
+display-inline-block # display inline block    
+display-block        # display block
+```
+``Note:`` Remeber You can always change class name ``X`` value from scss class and compile it using ``npm run compile`` or other command provided.
 
 
 ## Packages Used
